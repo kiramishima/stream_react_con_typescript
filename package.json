@@ -1,0 +1,36 @@
+{
+  "name": "stream-react",
+  "version": "1.0.0",
+  "description": "Codigo creado durante el stream",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "webpack --mode=none --config ./webpack/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiramishima/stream_react_con_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiramishima/stream_react_con_typescript/issues"
+  },
+  "homepage": "https://github.com/kiramishima/stream_react_con_typescript#readme",
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.3",
+    "webpack": "^4.18.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
